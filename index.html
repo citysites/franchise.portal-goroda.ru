@@ -16,6 +16,7 @@
         })(window, document, 'script', 'dataLayer', 'GTM-MXK2GKV');</script>
     <!-- End Google Tag Manager -->
     <title>Бизнес по франшизе в России — Портал Города</title>
+    <meta name="robots" content="noindex, nofollow" />
     <meta name="description"
         content="Выгодный бизнес по франшизе в любом городе РФ. 150+ партнеров, лучшие условия, присоединяйся сейчас!">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -1025,7 +1026,7 @@
                     <strong><span>Портал Города</span> дает возможность</strong>
                     <div class="footer__text">открыть собственный прибыльный бизнес уже сейчас</div>
                     <div class="footer__item">
-                        <img src="img/logo2.svg" alt="">
+                        <img src="img/logo-white.svg" alt="">
                         Не откладывайте на потом то, что можно сделать уже сегодня!
                     </div>
                     <div class="footer__info">
@@ -1044,10 +1045,10 @@
                         <div class="g-form-respond"></div>
                         <div class="g-form__preloader"></div>
                         <div class="input__container">
-                            <input class="input-field" type="text" name="Name" value="" placeholder="Имя">
+                            <input class="input-field" type="text" name="Name" required value="" placeholder="Имя">
                             <input class="input-field" type="text" name="City" value="" placeholder="Город">
-                            <input class="input-field" type="tel" name="Phone" value="" placeholder="Телефон">
-                            <input class="input-field" type="text" name="Email" value="" placeholder="E-mail">
+                            <input class="input-field input-field__phone" type="tel" name="Phone" required value="" placeholder="Телефон">
+                            <input class="input-field" type="email" name="Email" required value="" placeholder="E-mail">
                             <input id="honeypot" type="text" name="honeypot" value="">
                         </div>
                         <button type="submit" class="btn btn-white btn-form g-form__button">Получить
@@ -1072,10 +1073,10 @@
             <div class="g-form-respond"></div>
             <div class="g-form__preloader"></div>
             <div class="input__container">
-                <input class="modal-input-field" type="text" name="Name" value="" placeholder="Имя">
+                <input class="modal-input-field" type="text" name="Name" required value="" placeholder="Имя">
                 <input class="modal-input-field" type="text" name="City" value="" placeholder="Город">
-                <input class="modal-input-field" type="tel" name="Phone" value="" placeholder="Телефон">
-                <input class="modal-input-field" type="text" name="Email" value="" placeholder="E-mail">
+                <input class="modal-input-field input-field__phone" type="tel" name="Phone" required value="" placeholder="Телефон">
+                <input class="modal-input-field" type="email" name="Email" required value="" placeholder="E-mail">
                 <input id="honeypot" type="text" name="honeypot" value="">
             </div>
             <button class="btn btn-modal g-form__button" type="submit">Получить предложение</button>
@@ -1085,6 +1086,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+	<script>
+		$(function() {
+			$('.input-field__phone').mask('+7(000)000-00-00');
+		});
+	</script>
 </body>
 
 </html>
