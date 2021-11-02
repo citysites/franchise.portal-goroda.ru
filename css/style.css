@@ -96,7 +96,6 @@ strong{
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
 }
 
-
 .btn-pink{
     background-color: #ff2036;
     color: #fff;
@@ -121,7 +120,6 @@ strong{
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
-
 
 .row{
     display: flex;
@@ -229,6 +227,7 @@ nav a:hover, nav a:focus{
     font-weight: 700;
     padding: 60px 0;
 }
+
 .cover__text{
     font-size: 2rem;
     font-weight: 700;
@@ -267,6 +266,7 @@ nav a:hover, nav a:focus{
     width: 25%;
     justify-content: center;
 }
+
 .about__circle--red {
     position: relative;
     border: 3px solid;
@@ -276,6 +276,7 @@ nav a:hover, nav a:focus{
     border-radius: 50%;
     margin: auto -50% auto 0%;
 }
+
 .about__circle--blue {
     position: relative;
     background-image: url("../img/logo-white.svg");
@@ -303,6 +304,7 @@ nav a:hover, nav a:focus{
     border-radius: 100px;
     margin: 10px auto;
 }
+
 .about__item img{
     margin-left: -40px;
 }
@@ -323,44 +325,18 @@ nav a:hover, nav a:focus{
     padding: 0 65px;
 }
 
-.business{
-    text-align: right;
-    font-size: 14rem;
-    font-weight: 700;
-    line-height: 14rem;
-    color: #ecf0f3;
-}
-
-.why__franch{
-    background-color: #ecf0f3;
-    background-image: url("../img/map.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding-top: 30px;
-    margin-top: -3rem;
-}
-
-.why__list{
+.trust__inner-desktop{
     display: flex;
-    flex-wrap: wrap;
-    margin: 60px 0;
-}
-
-.why__item{
-    display: flex;
+    justify-content: space-around;
     align-items: center;
-    width: 25%;
-    padding: 2rem;
 }
 
-.why__item img{
-    padding-right: 20px;
+.trust__inner-mobile{
+    display: none;
 }
 
-.why__btn{
-    z-index: 5;
-    bottom: -40px;
+.trust__btn{
+    margin: 2rem auto;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
@@ -440,7 +416,6 @@ table{
     font-weight: 300;
 }
 
-
 thead{
     background-color: #323232;
     color: #fff;
@@ -481,359 +456,8 @@ thead{
     color: #fff;
 }
 
-
-
 .franchise__table-mobile{
     display: none;
-}
-
-.monetization__line--right{
-    background-image: url("../img/ellipse-right-blue.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-top: -2rem;
-}
-
-.monetization__title{
-    font-size: 1.33rem;
-    font-weight: 700;
-}
-
-.monetization__row{
-    margin-top: 2rem;
-    justify-content: space-around;
-}
-
-.monetization__col{
-    margin-top: 5rem;
-}
-
-.monetization__list--main{
-    font-weight: bold;
-    width: 40%;
-}
-
-/* .monetization__list--main ol div{
-    margin-bottom: 2rem;
-    padding: 0;
-} */
-
-.monetization__list--main li{
-    margin: 1rem 0;
-}
-
-.monetization__list--additional{
-    width: 55%;
-}
-
-.monetization__list--additional li{
-    margin: 1rem 0;
-    color: #bc2a40;
-}
-
-.monetization__list--additional span{
-    color: #000;
-}
-
-.catalog__col{
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-}
-
-.catalog__col img{
-    width: 90%;
-}
-
-.catalog__row{
-    margin-left: 3rem;
-    align-items: flex-end;
-    padding-top: 4rem;
-}
-
-.catalog__text{
-    margin-left: -5%;
-    margin-bottom: .5rem;
-}
-
-.banners{
-    padding-top: 2rem;
-}
-
-.banners__h3-mobile,
-.projects__h3-mobile,
-.projects__img-mobile{
-    display: none;
-}
-
-.banner__col{
-    display: flex;
-    align-items: flex-start;
-    margin: 1rem 0;
-}
-
-.banner__number{
-    margin-top: 2rem;
-    margin-left: -3rem;
-    z-index: -1;
-}
-
-.banners__list{
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-}
-
-.banners__item{
-    display: flex;
-    align-items: center;
-}
-
-.banners__item img{
-    padding: .5rem 1rem .5rem 0;
-}
-
-.articles__projects{
-    background-image: url("../img/ellipse-left-blue.png");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    margin-top: -2rem;
-}
-
-.artprojects__row{
-    display: flex;
-    align-items: center;
-}
-
-.articles__text{
-    width: 20%;
-}
-
-.articles__number{
-    line-height: 16rem;
-}
-
-.articles__img-mobile{
-    display: none;
-}
-
-.projects__text{
-    width: 30%;
-    padding-left: 3%;
-}
-
-.projects__list{
-    margin: 2rem 0 5rem 0;
-}
-
-.projects__item,
-.projects__item-bottom{
-    padding-block: 1rem;
-}
-
-.projects__number{
-    text-align: right;
-    margin-top: -2rem;
-    margin-right: -.5rem;
-}
-
-.icons{
-    height: 100px;
-    margin: 4rem 0;
-    background-image: url("../img/icons.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-.icons__img{
-    float: right;
-    margin: 4rem 0;
-}
-
-.native{
-    padding-top: 4rem;
-}
-
-.native__number{
-    text-align: right;
-    line-height: 1rem;
-    margin-bottom: -2rem;
-    padding-top: 3rem;
-}
-
-.native__col{
-    display: flex;
-    justify-content: center;
-}
-
-.native__list{
-    display: flex;
-    flex-direction: column;
-    margin: 2rem 0;
-}
-
-.native__item{
-    display: flex;
-    align-items: center;
-}
-
-.native__item img{
-    padding: .5rem 1rem;
-}
-
-.dot__item{
-    margin-top: 4rem;
-    font-size: .8rem;
-}
-
-.dot__item li{
-    margin: 1rem 0;
-    color: #bc2a40;
-}
-
-.dot__item span{
-    margin: 1rem 0;
-    color: #000;
-}
-
-.mobile-banner{
-    padding-top: 23rem;
-    padding-bottom: 4rem;
-    margin-top: -22rem;
-    background-image: url("../img/pink-background-full.png");
-    background-repeat: no-repeat;
-    background-position: center bottom;
-}
-
-.mobanner__marker{
-    background-image: url("../img/red-marker.png");
-    background-repeat: no-repeat;
-    background-position: right 4rem;
-}
-
-.mobanner__col{
-    display: flex;
-    width: 70%;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-
-.mobanner__title{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.mobanner__title h3{
-    margin-bottom: 2rem;
-}
-
-.mobanner__number{
-    text-align: right;
-}
-
-.mobanner__list{
-    display: flex;
-    flex-direction: column;
-    margin: 1rem 2rem 2rem 2rem;
-    width: 80%;
-}
-
-.mobanner__item{
-    display: flex;
-    align-items: center;
-    margin: 1rem 0;
-}
-
-.mobanner__item img{
-    padding: .5rem 1rem;
-}
-
-
-.mobanner__img-mobile{
-    display: none;
-}
-
-.mobanner__img-desktop{
-    margin-bottom: 2rem;
-}
-
-.mobanner__dot{
-    width: 25%;
-    padding: 5% 10% 5% 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    font-size: .8rem;
-}
-
-.mobanner__dot li{
-    margin: 1rem 0;
-    color: #fff;
-}
-
-.social__col{
-    padding: 1rem;
-}
-
-.social__number{
-    text-align: right;
-    line-height: 1rem;
-    margin-bottom: -2rem;
-    padding-top: 2rem;
-}
-
-.social__list{
-    display: flex;
-    flex-direction: column;
-    margin: 3rem 0 2rem 0;
-}
-
-.social__item{
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 1rem;
-}
-
-.social__item img{
-    padding-right: 1rem;
-}
-
-.ads__number{
-    text-align: right;
-    margin: 3rem 2rem -5rem 0;
-}
-
-.ads-title, .brand-title{
-    margin: 1rem 4rem;
-}
-
-.payads{
-    margin-left: -1rem;
-}
-
-.brandheader{
-    margin-left: -1rem;
-}
-
-.brand__number{
-    text-align: right;
-    margin-right: -.8rem;
-}
-
-.ads__brand-content{
-    margin-left: -2rem;
-    display: flex;
-}
-
-.brand__item{
-    margin: 1rem 0;
-    display: flex;
-    align-items: flex-start;
-}
-
-.brand__item img{
-    width: 2.5rem;
-    margin: 0 1rem;
 }
 
 .rocket{
@@ -863,38 +487,11 @@ thead{
     margin: 2rem auto;
 }
 
-.trust__inner-desktop{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.trust__inner-mobile{
-    display: none;
-}
-
-.trust__btn{
-    margin: 2rem auto;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
 .reasons{
     background-image: url("../img/reason-background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    margin-top: 5rem;
-}
-
-.angle__img{
-    background-image: url("../img/angle.png");
-    background-repeat: no-repeat;
-    background-position: center bottom;
-    background-size: cover;
-    padding: 1rem;
-    margin-block: 1rem;
 }
 
 .reasons__top{
@@ -960,10 +557,18 @@ thead{
     line-height: 3rem;
 }
 
+.angle__img{
+    background-image: url("../img/angle.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding: 1rem;
+    margin-block: 1rem;
+}
+
 .reasons__list{
     display: flex;
     justify-content: space-around;
-    /* margin-top: 8rem; */
 }
 
 .reasons__item{
@@ -1289,22 +894,12 @@ footer{
     .header__contact, 
     .nav, 
     .header__logo, 
-    .number,
     .cover__text br,
     .cover__text-desktop,
     .about__circle,
     .what__lines,
     .what__center,
     .franchise__table,
-    .banners__h3-desktop,
-    .articles__img-desktop,
-    .projects__h3-desktop,
-    .projects__img,
-    .icons,
-    .mobanner__img-desktop,
-    .mobanner__dot,
-    .ads-title br,
-    .brand-title br,
     .trust__inner-desktop,
     .reasons__item--number,
     .reasons__list br,
@@ -1379,6 +974,7 @@ footer{
     .item-1, .item-4, .item-1>img, .item-4>img {
         margin: auto;
     }
+
     .about__list {
         margin: 3rem 0;
     }
@@ -1401,35 +997,16 @@ footer{
         font-size: 1.67rem;
         line-height: 1.5rem;
     }
-    .business {
-        font-size: 5rem;
-        line-height: 5rem;
-        margin-right: 3rem;
+
+    .trust__inner-mobile{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-    .why__franch {
-        margin-top: -1rem;
-        background-position: center top;
-        padding-top: 1rem;
-    }
-    /* .why__franch h2 {
-        margin: 0;
-    } */
-    .why__list {
-        margin: 2rem auto;
-    }
-    .why__item {
-        width: 100%;
-        padding: 0 1rem;
-        font-size: 1.3rem;
-    }
-    .why__item img {
-        padding: .5rem 1rem .5rem 0;
-        width: 13%;
-    }
-    .why__btn {
-        width: 75%;
-        margin: 1rem auto 3rem auto;
-        bottom: 0;
+
+    .trust__inner-mobile img{
+        margin-block: 1rem;
+        max-width: 100%;
     }
 
     .what__franch {
@@ -1517,308 +1094,7 @@ footer{
         width: 50%;
         padding: .5rem 0 1rem 1rem;
         font-weight: 300;
-    }
-
-    .monetization__line--right{
-        background-image: url("../img/ellipse-right-blue.png");
-        background-position: 80% bottom;
-        background-repeat: no-repeat;
-    }
-
-    .monetization__col{
-        width: 100%;
-        padding-left: 1rem;
-        margin-top: 2rem;
-    }
-
-    .monetization__row{
-        margin-top: 0;
-        font-size: 1.3rem;
-    }
-
-    .monetization__list--main,
-    .monetization__list--additional{
-        width: 100%;
-    }
-
-    .catalog__col{
-        width: 100%;
-        margin-block: 3rem 6rem;
-    }
-
-    .catalog__col img{
-        margin-left: -2rem;
-        width: 100%;
-    }
-
-    .monetization__col::after{
-        content: url("../img/icons-mobile.png");
-        margin-left: -1rem;
-    }
-
-    .catalog__row{
-        padding-top: 0;
-        justify-content: space-evenly;
-    }
-
-    .catalog__text h3::before{
-        content: "1. ";
-        font-size: 2.6rem;
-        font-weight: 700;
-        color: #fff;
-    }
-    
-    .catalog__text{
-        margin-left: 0;
-        width: 90%;
-    }
-
-    .catalog__text div{
-        font-size: 18px;
-    }
-
-    .catalog__text .text-white{
-        margin-block: 1rem;
-    }
-
-    .banners{
-        padding-top: 0;
-    }
-
-    .banners__h3-mobile,
-    .projects__h3-mobile{
-        display: inline;
-        margin-inline: 2rem;
-    }
-
-    .banner__col {
-        flex-direction: column;
-    }
-
-    .banner__col img{
-        width: 100%;
-        margin-left: -2rem;
-        margin-top: 2rem;
-    }
-
-    .banners__list{
-        margin-left: 1rem;
-        font-size: 1.3rem;
-        line-height: 1.7rem;
-    }
-    
-    .banners__item{
-        margin-block: .5rem;
-    }
-
-    .banners__item img{
-        width: 15%;
-    }
-
-    .articles__projects{
-        background-position: 15% top;
-        margin-top: 2rem;
-        padding-top: 4rem;
-    }
-
-    .artprojects__row{
-        flex-wrap: wrap;
-        align-items: start;
-        justify-content: center;
-    }
-
-    .articles__text{
-        width: 85%;
-        margin-bottom: 1.5rem;
-    }
-
-    .articles__img-mobile{
-        display: block;
-        width: 100%;
-    }
-
-    .articles__img-mobile img{
-        width: 100%;
-    }
-
-    .articles__text .text-pink{
-        font-size: 1.3rem;
-    }
-
-    .artprojects__row::before{
-        content: "3. ";
-        color: #fff;
-        font-size: 2.6rem;
-        font-weight: 700;
-        margin: 1rem .5rem;
-    }
-
-    .projects__list{
-        margin: 1rem 0;
-        counter-reset: projects;
-    }
-
-    .projects__img-mobile{
-        display: block;
-    }
-
-    .projects__img-mobile img{
-        width: 95%;
-    }
-
-    .projects__item::before{
-        counter-increment: projects;
-        content: counter(projects)". ";
-    }
-
-    .projects__text{
-        width: 100%;
-        font-size: 1.3rem;
-        padding-right: 2rem;
-    }
-
-    .projects__item,
-    .projects__item-bottom{
-        padding-block: .5rem;
-    }
-
-    .native{
-        padding-top: 0;
-        font-size: 1.3rem;
-    }
-
-    .native .col{
-        padding-inline: 2rem;
-    }
-
-    .native__col img{
-        width: 100%;
-    }
-
-    .native .col h3::before{
-        content: "5.";
-        font-size: 2.6rem;
-        font-weight: 700;
-    }
-
-    .native__item{
-        padding-block: 1rem;
-        align-items: flex-start;
-    }
-
-    .native__item img{
-        padding: .5rem 1rem .5rem 0;
-        width: 15%;
-    }
-
-    .dot__item{
-        margin-top: 1rem;
-        font-size: 1rem;
-        line-height: 1.3rem;
-    }
-
-    .mobanner__marker{
-        background-position: right center;
-    }
-
-    .mobile-banner{
-        background-size: cover;
-        background-position: 10% bottom;
-        margin-top: 3rem;
-        margin-bottom: -3rem;
-        padding-bottom: 7rem;
-        padding-top: 2rem;
-    }
-
-    .mobanner__col{
-        width: 100%;
-        padding-left: 2rem;
-        font-size: 1.3rem;
-    }
-    
-    .mobanner__title h3::before{
-        content: "6.";
-    }
-
-    .mobanner__img-mobile{
-        display: block;
-    }
-
-    .mobanner__img-mobile img{
-        width: 50%;
-        margin-bottom: 2rem;
-    }
-
-    .mobanner__list{
-        margin: 4rem auto;
-        width: 100%;
-    }
-
-    .mobanner__item{
-        align-items: flex-start;
-        margin: 1rem 0;
-    }
-
-    .mobanner__item img{
-        padding: 0 1rem 0 0;
-    }
-
-    .social{
-        font-size: 1.3rem;
-    }
-
-    .social h3::before{
-        content: "7.";
-    }
-
-    .social__img{
-        width: 90%;
-        margin-top: -5rem;
-        margin-inline: 5%;
-    }
-
-    .social__col{
-        padding: 2rem 2rem 0 2rem;
-    }
-
-    .social__item{
-        margin-bottom: 2rem;
-    }
-
-    .ads__brand{
-        font-size: 1.3rem;
-    }
-
-    .ads-title h3::before{
-        content: "8. ";
-    }
-
-    .ads-title, .brand-title{
-        margin: 1rem 2rem;
-    }
-
-    .ads__brand-subtitle{
-        margin-top: 2rem;
-    }
-
-    .payads img{
-        width: 100%;
-    }
-
-    .brand-title h3::before{
-        content: "9. ";
-    }
-
-    .ads__brand-content{
-        flex-direction: column;
-        margin-left:0;
-    }
-
-    .brand__item{
-        margin: 1rem auto;
-        line-height: 1.7rem;
-        padding-right: 3rem;
-    }
+    }    
 
     .rocket{
         font-size: 2.6rem;
@@ -1837,19 +1113,7 @@ footer{
         transform: none;
     }
 
-    .trust__inner-mobile{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .trust__inner-mobile img{
-        margin-block: 1rem;
-        max-width: 100%;
-    }
-
     .reasons{
-        margin-top: 4rem;
         padding-top: 1rem;
     }
 
@@ -1889,7 +1153,6 @@ footer{
         padding-block: 2rem;
     }
 
-
     .reasons__list{
         flex-wrap: wrap;
         font-size: 1.7rem;
@@ -1914,6 +1177,7 @@ footer{
         margin-block: 3rem;
         
     }
+    
     .partners{
         margin-top: 0;
     }
