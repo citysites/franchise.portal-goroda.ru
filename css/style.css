@@ -367,7 +367,6 @@ nav a:hover, nav a:focus{
     flex-direction: column-reverse;
 }
 
-
 .what__item img{
     width: 90px;
     height: 90px;
@@ -408,6 +407,37 @@ nav a:hover, nav a:focus{
     display: none;
 }
 
+.rocket{
+    display: flex;
+    flex-direction: column;
+    background-color: #31304f;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    position: relative;
+    padding-top: 2rem;
+    margin-top: 7rem;
+}
+
+.rocket img{
+    position: absolute;
+    width: 250px;
+    left: calc(50% - 550px);
+    transform: translate(-50%, -133px);
+}
+
+.rocket h3{
+    margin: 0;
+}
+
+.rocket__btn{
+    margin: 2rem auto;
+}
+
+.franchise__compare{
+    padding-top: 3rem;
+}
+
 table{
     border-collapse: collapse;
     overflow-x: auto;
@@ -419,10 +449,6 @@ table{
 thead{
     background-color: #323232;
     color: #fff;
-}
-
-.franchise__compare{
-    margin-top: 5rem;
 }
 
 .franchise__table thead th {
@@ -462,33 +488,6 @@ thead{
 
 .franchise__table-mobile{
     display: none;
-}
-
-.rocket{
-    display: flex;
-    flex-direction: column;
-    background-color: #31304f;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 300;
-    position: relative;
-    padding-top: 2rem;
-    margin-top: 7rem;
-}
-
-.rocket img{
-    position: absolute;
-    width: 250px;
-    left: calc(50% - 550px);
-    transform: translate(-50%, -133px);
-}
-
-.rocket h3{
-    margin: 0;
-}
-
-.rocket__btn{
-    margin: 2rem auto;
 }
 
 .reasons{
@@ -914,46 +913,56 @@ footer{
     .footer__info{
         display: none;
     }
+
     .container {
         max-width: 414px;
         margin: auto;
     }
+
     .main {
         height: 620px;
         text-align: center;
     }
+
     .header {
         height: 6rem;
     }
+
     .header-mobile {
         display: flex;
         width: 100%;
         margin: 0 1rem;
         align-items: center;
     }
+
     .mobile__logo {
         margin: auto;
         padding-right: 10%;
     }
+
     .mobile__logo img {
         width: 6rem;
         margin-right: 50%;
     }
+
     .cover {
         background-color: #bc2a40;
         background-image: url("../img/devices-mobile.png");
         background-repeat: no-repeat;
         background-position: center bottom;
     }
+
     .cover__inner {
         width: 100%;
     }
+
     .cover__title {
         font-size: 2.3rem;
         line-height: 2.3rem;
         font-weight: 700;
         padding: 0 1rem;
     }
+
     .cover__text {
         font-size: 1rem;
         margin: 1rem;
@@ -965,11 +974,13 @@ footer{
         margin: 0;
         position: relative;
     }
+
     .cover__text-mobile {
         display: inline-flex;
         margin-top: 23.5rem;
         font-size: .9rem;
     }
+
     .line__red, .line__blue, .line__white {
         height: 10px;
         width: 100%;
@@ -982,20 +993,24 @@ footer{
     .about__list {
         margin: 3rem 0;
     }
+
     .about__item img {
         width: 20%;
         height: auto;
         margin: 0;
     }
+
     .about__item {
         width: 98%;
         height: auto;
         padding: 1rem 0;
     }
+
     .about__text {
         padding: 0 0 0 10px;
         width: 75%;
     }
+
     .about__text h3 {
         margin: 0 0 .8rem 0;
         font-size: 1.67rem;
@@ -1016,11 +1031,13 @@ footer{
     .what__franch {
         padding-top: 0px;
     }
+
     .what__list{
         padding: 0;
         flex-direction: column;
         align-items: stretch;
     }
+    
     .what__item {
         flex-direction: row;
         width: 100%;
@@ -1058,10 +1075,6 @@ footer{
         line-height: 2rem;
         text-align: center;
         color: #fff;
-    }
-
-    .franchise__compare{
-        padding-top: 3rem;
     }
 
     .franchise__table-mobile{
