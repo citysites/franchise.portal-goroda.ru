@@ -421,6 +421,10 @@ thead{
     color: #fff;
 }
 
+.franchise__compare{
+    margin-top: 5rem;
+}
+
 .franchise__table thead th {
     font-size: 1.33rem;
     font-weight: 300;
